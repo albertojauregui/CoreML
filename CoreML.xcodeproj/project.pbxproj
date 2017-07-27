@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156A95BE1EF1D6DC000EB213 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 156A95BD1EF1D6DC000EB213 /* Inceptionv3.mlmodel */; };
 		1579B4751EF1D25B00C4D1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579B4741EF1D25B00C4D1C7 /* AppDelegate.swift */; };
 		1579B4771EF1D25B00C4D1C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579B4761EF1D25B00C4D1C7 /* ViewController.swift */; };
 		1579B47A1EF1D25B00C4D1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1579B4781EF1D25B00C4D1C7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		156A95BD1EF1D6DC000EB213 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		1579B4711EF1D25B00C4D1C7 /* CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1579B4741EF1D25B00C4D1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1579B4761EF1D25B00C4D1C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		1579B4681EF1D25B00C4D1C7 = {
 			isa = PBXGroup;
 			children = (
+				156A95BD1EF1D6DC000EB213 /* Inceptionv3.mlmodel */,
 				1579B4731EF1D25B00C4D1C7 /* CoreML */,
 				1579B4721EF1D25B00C4D1C7 /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					1579B4701EF1D25B00C4D1C7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1579B4771EF1D25B00C4D1C7 /* ViewController.swift in Sources */,
+				156A95BE1EF1D6DC000EB213 /* Inceptionv3.mlmodel in Sources */,
 				1579B4751EF1D25B00C4D1C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertojauregui.CoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertojauregui.CoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +319,7 @@
 				1579B4851EF1D25B00C4D1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
